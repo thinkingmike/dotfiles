@@ -1,0 +1,500 @@
+
+ls
+mv header.js ../stuff_tried/
+mv scrollview.js ../stuff_tried/
+ls
+
+ls
+rm notepad.txt 
+
+ls
+mv currency.js ../stuff_tried/
+
+ls
+infosites 
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native/website/
+npm run start
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+cd ios/
+open TestApp.xcodeproj/
+gitk
+cd react-native-projects/
+cd TestApp/
+git init
+ls
+git add index.ios.js
+git components/
+git add components/
+git add stuff_tried/
+git commit -m 'better late then never , initial commit'
+gitk
+git status
+cat .gitignore 
+cd react-native/website/
+npm run start
+cd react-native/Examples/
+subl j
+subl js
+cd UIExplorer/
+subl js
+infosites
+infosites
+cd react-native/website/
+npm run start
+cd react-native/Examples/UIExplorer/js
+ls
+cd..
+subl js
+infosites
+cd react-native-projects/
+subl TestApp/
+cd..
+cd react-native/website/
+npm run start
+cd react-native-projects/TestApp/
+git branch navigation
+git checkout navigation 
+cd..
+cd..
+cd react-native/Examples/UIExplorer/
+subl js
+cd ~/Develop/react-native-projects/TestApp/components/
+touch home.js
+cd..
+react-native run-ios
+cd ios/
+open TestApp.xcodeproj/
+cd..
+cd components/
+ls
+touch ListViewFavourites.js
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/TestApp/
+npm install --save react-navigation
+react-native --version
+react --version
+npm cache clean
+npm installreact@16.0.0-alpha.6
+npm install react@16.0.0-alpha.6
+npm install
+npm install react@15.3.2
+npm install
+npm install react@15.3.2
+npm install
+npm install react@15.5.4
+npm install react@16.0.0-alpha.6
+npm install
+npm install react
+npm install -g react
+npm install
+react --version
+ls
+cat package.json 
+subl package.json 
+npm install
+subl package.json 
+npm install
+
+ls
+cd node_modules/
+
+ls
+subl react-native-tab-view/
+cd..
+react-native run-ios
+infosites 
+infosites 
+cd react-native-projects/TestApp/
+npm run start
+react-native run-ios
+cd../..
+cd..
+cd..
+cd react-native/Examples/UIExplorer/
+subl js
+cd...
+cd..
+cd we
+cd ..
+cd website/
+npm run start
+
+cd ~
+subl .bash_history 
+
+
+
+
+cd react-native-projects/TestApp/
+git status
+git add components/swipeablelist.js
+git add index.ios.js
+git add .gitignore
+git add components/listviewAll.js
+git add components/listviewFav.js
+git status
+git add app.json
+git commit -m "Branch Navigation init"
+git status
+eslint -v
+
+ls
+eslint--init
+ls
+mkdir project
+cd react-native-projects/
+mv TestApp/ ~/Develop/project/
+ls
+cd ..
+cd project/
+ls
+cd..
+cd project/
+subl TestApp/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+ls
+cd ..
+mv TestApp/ ~/Develop/react-native-projects/
+cd ~/Develop/react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+ls
+cd ..
+mkdir
+ls
+mkdir GetList
+cd GetList/
+node init
+npm init
+touch index.js
+subl index.js
+infosites
+infosites
+cd react-native-projects/
+ls
+cd GetList/
+ls
+chmod +x index.js 
+ls
+./ index.js 
+./index.js
+./index.js
+./index.js
+./index.js
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+ls
+cat currencyList.json 
+node index.js 
+node index.js 
+subl currencyList.json 
+node index.js 
+node index.js 
+ls
+cat currencyList.json 
+subl currencyList.json 
+cp currencyList.json ~/Develop/react-native-projects/TestApp/components/
+cd ..
+subl TestApp/
+
+ls
+cd GetList/
+ls
+subl index.js 
+cd..
+cd  TestApp/
+subl
+ls
+cd components/
+ls
+cd..
+cd..
+cd GetList/
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+node index.js 
+ls
+cat currencyList.json 
+ls
+node index.js 
+subl currencyList.json 
+node index.js 
+node index.js 
+cd react-native-projects/
+subl TestApp/
+cd co
+cd TestApp/
+cd components/
+cp currencyList.json currlist.json
+rm currencyList.json 
+ls
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+cd..
+subl TestApp/
+cd TestApp/
+react-native run-ios
+cd ios
+open TestApp.xcodeproj/
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+git status
+git add -A
+git status
+git commit -m "now need to update with proper navigation / store"
+git status
+react-native run-ios
+infosites 
+cd react-native-projects/
+subl TestApp/
+react-native run-ios
+cd TestApp/
+react-native run-ios
+git status
+git add -A
+git commit -m 'changed the main and home view'
+git status
+cd react-native-projects/TestApp/ios/
+open TestApp.xcodeproj/
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+ls
+mkdir styles
+cd styles
+touch color.js
+infosites 
+cd react-native-projects/
+atom
+atom TestApp/
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+
+cd react-native/
+ls
+cd Examples/UIExplorer/
+subl js
+cd..
+cd..
+cd website/
+npm run start
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native/Examples/UIExplorer/
+subl js
+cd js
+cd ..
+cd..
+cd..
+cd..
+cd react-native-projects/TestApp/node_modules/react-native/Libraries/
+ls
+cd Experimental/
+ls
+cd SwipeableRow/
+ls
+cd..
+subl SwipeableRow/
+
+
+cd react-native
+cd website/
+npm run start
+
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd ~/Downloads/
+ls
+cd react-native-vector-icons-master/
+ls
+cd Examples/
+cd IconExplorer/
+ls
+react-native run-ios
+cat README.md 
+
+ls
+cd ~/Develop/react-native-projects/TestApp/
+npm install react-native-vector-icons --save
+cd ~/Downloads/react-native-vector-icons-master/
+cd Examples/
+ls
+cd TabBarExample/
+ls
+cd ..
+ls
+cd IconExplorer/
+ls
+cat Re
+cat README.md 
+npm install react-native-desktop@0.6.5
+cd ~/Develop/react-native-projects/TestApp/node_modules/
+ls
+cd react-native-vector-icons/
+ls
+cat README.md 
+ls
+cat generate-icon.js 
+
+ls
+cd templates/
+ls
+cd..
+
+ls
+cat package.json 
+
+ls
+cat index.js 
+cd lib
+ls
+cat create-icon-set
+cat create-icon-set.js 
+
+ls
+cd..
+cd..
+cd react-native-vector-icons/
+ls
+cd..
+ls
+cd react-native-vector-icons/
+ls
+cat README.md 
+cd ~/Develop/react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+react-native run-ios
+cdios
+cd ios/
+open TestApp.xcodeproj/
+cd..
+react-native run-ios
+
+
+
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/TestApp/
+eslint --init
+ls
+cat .watchmanconfig 
+flow
+cd ..
+subl TestApp/
+cd TestApp/
+react-native run-ios
+cd components/
+touch cell.js
+cd ../ios/
+open TestApp.xcodeproj/
+open TestApp.xcodeproj/
+
+
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+cd react-native-projects/TestApp/node_modules/
+ls
+cd..
+cd..
+cd..
+cd react-native
+cd Examples/
+subl js
+ls
+cd UIExplorer/
+subl js
+cd..
+cd..
+ls
+cd Libraries/
+ls
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+
+
+infosites 
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+infosites 
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+cd react-native-projects/
+subl TestApp/
+cd TestApp/
+react-native run-ios
+cd ios
+open TestApp.xcodeproj/
+cd..
+react-native run-ios
+cd components/
+touch dummydata.json
+cd ..
+ls
+mkdir json
+cd components/
+ls
+mv currlist.json ../json/
+mv dummydata.json ../json/
+ls
+cd..
+cd json/
+ls
+ls
+/Users/Michiel/Develop/react-native-projects/TestApp/node_modules/react-native/packager/launchPackager.command ; exit;
+
+
+
+
+
+
+
+mail
+man grep

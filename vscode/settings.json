@@ -1,0 +1,58 @@
+// Place your settings in this file to overwrite the default settings
+{
+
+    "todohighlight.isEnable":true,
+    "todohighlight.keywords": [
+
+      "// HACK:",
+      "FIXME:",
+      "TODO:",
+      {
+        "text":"// HIERO:",
+        "color": "red",
+        "backgroundColor": "white",
+      },
+      {
+        "text":"// NOTE:",
+        "color":"blue",
+        "backgroundColor": "yellow"
+      },
+      {
+        "text":"// TODO:",
+        "color":"white",
+        "backgroundColor": "orange"
+      }
+    ],
+
+    "filePicker.alternateFileNameMatching": true,
+    "editor.fontLigatures": true,// "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.tabSize": 2,
+    "editor.wrappingColumn": 120,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/.git": true,
+      "**/.svn": true,
+      "**/node_modules": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": true,
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.sideBar.location": "left",
+    "window.zoomLevel": 1,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "breadcrumbs.enabled": false
+  }
