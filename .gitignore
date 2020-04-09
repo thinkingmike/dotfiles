@@ -2,4 +2,7 @@ node_modules
 npm-debug.log
 yarn-error.log
 
+# OSX Specific files
+.DS_Store
+
 1024

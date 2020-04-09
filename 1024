@@ -45,3 +45,10 @@
 : 1586404481:0;git rm -f --cached vim/.vim/pack/plugins/start/lihjtline
 : 1586404489:0;git rm -f --cached vim/.vim/pack/plugins/start/lightline
 : 1586404492:0;git add .
+: 1586404510:0;ls
+: 1586404525:0;git commit "updated Brewfile"
+: 1586404540:0;git commit -m "updated Brewfile"
+: 1586404545:0;git status
+: 1586404559:0;cat .gitignore
+: 1586404616:0;micro .gitignore
+: 1586404628:0;git add .
