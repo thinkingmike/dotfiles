@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "alisongreen": "rgb(125,199,53)",
+    "infosites": "seagreen",
+    "js": "orchid",
+    "html": "rgb(192,69,91)",
+    "server": "alisongreen",
+    "papayawhip": null,
+    "client": "rgb(20,54,139)"
+  }
+}

@@ -39,6 +39,7 @@ setopt auto_cd	#cd by typing directory name if it is not a command (e.g. go will
 alias cls='clear'
 #source this file
 alias reload='source $HOME/.zshrc'
+alias info-'archey'
 
 alias ls="ls -FGlAhp"
 alias lsc='colorls -lA --sd'
@@ -79,13 +80,12 @@ source <(antibody init)
 
 #antibody bundle githubuser/reponame
 #(or for testing at cli : antibody bundle githubuser/reponame)
-#antibody bundle zdharma/fast-syntax-highlighting > ~/.zshrc.log
-#antibody bundle zsh-users/zsh-autosuggestions
-#antibody bundle robbyrussell/oh-my-zsh path:plugins/brew
-#antibody bundle ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+antibody bundle zdharma/fast-syntax-highlighting > ~/.zshrc.log
+antibody bundle zsh-users/zsh-autosuggestions
+#antibody bundle robbyrussell/oh-my-zsh path:plugins/brew#antibody bundle ohmyzsh/ohmyzsh path:plugins/colored-man-pages
 #antibody bundle ohmyzsh/ohmyzsh path:plugins/golang
 
-#if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)";fi
+if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)";fi
 
 
 
