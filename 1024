@@ -1,54 +1,78 @@
-: 1586145006:0;ls
-: 1586145017:0;cat Brewfile.lock.json
-: 1586145077:0;brew search vlc
-: 1586145168:0;brew cask install vlc
-: 1586145683:0;brew install archey
-: 1586145726:0;archey
-: 1586145733:0;cls
-: 1586145734:0;archey
-: 1586145762:0;archey -h
-: 1586319719:0;cd zsh
-: 1586320535:0;cd zsh
-: 1586402175:0;ls
-: 1586402180:0;mkdir vim
-: 1586402268:0;stow vim
-: 1586402333:0;mkdir iterm_tabset
-: 1586402355:0;stow iterm_tabset
-: 1586402383:0;stow zsh
-: 1586402455:0;mkfir git
-: 1586402462:0;mkdir git
-: 1586402481:0;stow git
-: 1586402877:0;mkdir zsh2
-: 1586402881:0;cd zxh
-: 1586402884:0;cd zsh
-: 1586402939:0;rm zsh
-: 1586402945:0;mv zsh2 zsh
-: 1586402951:0;stow zsh
-: 1586402958:0;..
-: 1586403988:0;cls
-: 1586403988:0;ls
-: 1586404001:0;cat Brewfile
-: 1586404027:0;brew install sqlite
-: 1586404045:0;brw bundle dump
-: 1586404051:0;brew bundle dump
-: 1586404093:0;brew bundle
-: 1586404185:0;ls
-: 1586404189:0;cat Brewfile
-: 1586404210:0;brew bundle dump
-: 1586404219:0;brew bundle dump --force
-: 1586404226:0;cat Brewfile
-: 1586404373:0;cls
-: 1586404380:0;git add .
-: 1586404434:0;git rm --cached vim/.vim/pack/plugins/start/lightline
-: 1586404445:0;git rm --cached vim/.vim/pack/plugins/start/lightline -f
-: 1586404453:0;git add .
-: 1586404481:0;git rm -f --cached vim/.vim/pack/plugins/start/lihjtline
-: 1586404489:0;git rm -f --cached vim/.vim/pack/plugins/start/lightline
-: 1586404492:0;git add .
-: 1586404510:0;ls
-: 1586404525:0;git commit "updated Brewfile"
-: 1586404540:0;git commit -m "updated Brewfile"
-: 1586404545:0;git status
-: 1586404559:0;cat .gitignore
-: 1586404616:0;micro .gitignore
-: 1586404628:0;git add .
+cat Brewfile.lock.json
+brew search vlc
+brew cask install vlc
+brew install archey
+archey
+archey -h
+mkdir vim
+stow vim
+mkdir iterm_tabset
+stow iterm_tabset
+mkfir git
+mkdir git
+stow git
+mkdir zsh2
+cd zxh
+rm zsh
+mv zsh2 zsh
+stow zsh
+brew install sqlite
+brw bundle dump
+brew bundle
+brew bundle dump
+git rm --cached vim/.vim/pack/plugins/start/lightline
+git rm --cached vim/.vim/pack/plugins/start/lightline -f
+git rm -f --cached vim/.vim/pack/plugins/start/lihjtline
+git rm -f --cached vim/.vim/pack/plugins/start/lightline
+git commit "updated Brewfile"
+git commit -m "updated Brewfile"
+cat .gitignore
+micro .gitignore
+git add .
+git commit "updated gitinore for DS_file"
+git commit -m "update gitignore"
+git status
+git remote add origin https://github.com/thinkingmike/dotfiles.git
+git remote -v
+git push -u origin master
+lsg
+cd .zshrc
+brew cask install iterm2
+brew cask zap spotmenu
+brew cask uninstall --force spotmenu
+ls Brewfile
+brew cask install calibre
+brew cask install appcleaner
+brew cask install postman
+brew cask install google-chrome
+calc
+cls
+cat Brewfile
+Develop
+cd /Develop/
+..
+lsd
+lsc
+fg
+brew cask --help
+brew cask update
+brew cask upgrade
+brew upgrade
+node -v
+which node
+cd /usr/local/bin
+;s
+ls
+brew bundle dump --force
+cd /Applications
+vim Brewfile
+cd vim
+cd zsh
+exit
+: 1588051448:0;cd zsh
+: 1588052397:0;,,
+: 1588052399:0;..
+: 1588135891:0;ls
+: 1588135898:0;cd vim
+: 1588217357:0;cd zsh
+: 1588220655:0;git commit -am "apps moved to brew cask"

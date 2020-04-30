@@ -54,5 +54,6 @@
     },
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true
   }

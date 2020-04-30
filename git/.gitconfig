@@ -9,3 +9,5 @@
 	ui = auto
 [url "git@github.com:"]
 #	insteadOf = https://github.com/
+[core]
+	excludesfile = /Users/Michiel/.gitignore_global

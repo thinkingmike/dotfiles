@@ -1,3 +1,4 @@
+zmodload zsh/zprof
 #PROMPT
 
 #%F {110} - set Foreground color
@@ -5,6 +6,12 @@
 PROMPT='
 %F{110}%m %F{110}[%T] %F{111}%~ 
 %F{109}%# '
+
+fortune | cowsay -n | lolcat
+
+#set locale (error when using wget)
+#export LANG=en_US.UTF-8
+#export LC_ALL=en_US.UTF-8
 
 #TAB completion
 #http://www.masterzen.fr/2009/04/19/in-love-with-zsh-part-one/
@@ -43,8 +50,10 @@ alias info-'archey'
 
 alias ls="ls -FGlAhp"
 alias lsc='colorls -lA --sd'
-#show only dotfiles
+#list only dotfiles
 alias lsd='ls -d .*'
+#list npm global modules
+alias lsg='ls -l $(npm root -g)'
 alias cd..="cd .."
 alias ..='cd ..'
 alias mkdir='mkdir -pv'
@@ -85,8 +94,8 @@ antibody bundle zsh-users/zsh-autosuggestions
 #antibody bundle robbyrussell/oh-my-zsh path:plugins/brew#antibody bundle ohmyzsh/ohmyzsh path:plugins/colored-man-pages
 #antibody bundle ohmyzsh/ohmyzsh path:plugins/golang
 
-if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)";fi
-
+#This is a very time consuming commmand! Thus blocked out till find necessary?
+#if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)";fi
 
 
 
