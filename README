@@ -1,0 +1,29 @@
+#TODO: change all this to a script
+
+echo Install CLI tools for Xcode
+xcode-select --install
+
+echo Set correct permissions on folders needed by brew
+sudo chown -R `whoami`:admin /usr/local/bin
+sudo chown -R `whoami`:admin /usr/local/share
+
+echo Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo Clone dotfiles
+git clone https://github.com/thinkingmike/dotfiles.git .dotfiles
+cd .dotfiles
+brew update
+
+echo Install brew files / casks from Brewfile
+brew bundle
+
+brew cleanup
+brew cask cleanup
+
+echo Use brew zsh as default shell
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+echo $SHELL
+chsh -s $(which zsh)
+
+#https://github.com/mathiasbynens/dotfiles
