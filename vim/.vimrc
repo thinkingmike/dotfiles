@@ -9,7 +9,8 @@ set wrap        	 "wrap long lines to fit in the window
 set cursorline		"highlight current line
 set scrolloff=5		"always keep 5 lines above and below cursor
 
-inoremap jk <Esc>	"remap escape key
+set splitbelow		"open new split panes to the right and bottom
+set splitright
 
 set backspace=indent,eol,start	 "make backspace work like in most other programs in Insert mode
 
@@ -19,14 +20,28 @@ set number      	 "Show line numbers
 set noerrorbells	 "No beeps
 set visualbell  	 "Flash screen on error
 
-set autoindent
-set shiftwidth=3	"instead of 8 character tab
-set softtabstop=3
+"set autoindent
+set expandtab		"use spaces instead of tabs
+set smarttab		"use smart tabbing
+set shiftwidth=2	"instead of 8 character tab
+set softtabstop=2	"1 tab == 2 spaces
 
 set incsearch		"search as characters are entered
 set hlsearch		"highlight matches
 
 set mouse=a		"enable mouse support
+
+inoremap jk <Esc>	"remap escape key to jk
+
+"Insert closing brace
+inoremap {<cr> {<cr>}<esc>ko   
+
+nnoremap <C-J> <C-W><C-J>  "easy navigating between splits
+nnoremap <C-K> <C-W><C-K>  "instead of ctrl-w then j , now it is only ctrl-j
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
 
 "netrw file explorer, instead plugin nerdtree
 ":Sexplore - open in horizontal split

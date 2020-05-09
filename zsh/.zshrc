@@ -1,4 +1,3 @@
-zmodload zsh/zprof
 #PROMPT
 
 #%F {110} - set Foreground color
@@ -7,6 +6,7 @@ PROMPT='
 %F{110}%m %F{110}[%T] %F{111}%~ 
 %F{109}%# '
 
+#just for funs
 fortune | cowsay -n | lolcat
 
 #set locale (error when using wget)
@@ -31,7 +31,7 @@ source $(dirname $(gem which colorls))/ #werkt (nog) niet
 
 #HISTORY
 HISTFILE=$HOME/.zsh_history
-HISTFILE=1024
+HISTSIZE=1024
 SAVEHIST=$HISTSIZE
 setopt hist_ignore_all_dups
 setopt hist_reduce_blanks
