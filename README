@@ -26,4 +26,8 @@ sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 echo $SHELL
 chsh -s $(which zsh)
 
+# MAC specific settings
 #https://github.com/mathiasbynens/dotfiles
+
+# For Manjaro .zshrc:
+# comment lsc -> requesting mac specific brew package
