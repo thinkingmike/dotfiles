@@ -1,5 +1,0 @@
-: 1588494631:0;cls
-: 1588494666:0;find ~/Develop -name "1024"
-: 1588494742:0;find ~/Develop -name "1024" -delete
-: 1588494818:0;find ~/Develop -name "1024"
-: 1588564256:0;..

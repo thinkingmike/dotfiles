@@ -31,6 +31,8 @@ set hlsearch		"highlight matches
 
 set mouse=a		"enable mouse support
 
+"set directory^=$HOME/.vim/tmp//   "store swap files in tmp directory
+set noswapfile      "disable swap file functionality
 inoremap jk <Esc>	"remap escape key to jk
 
 "Insert closing brace
