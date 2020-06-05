@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/command-not-found"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "mas-cli/tap"
 # Graphical system information display for macOS
 brew "archey"
@@ -151,6 +152,7 @@ brew "getantibody/tap/antibody"
 cask "appcleaner"
 cask "calibre"
 cask "dash"
+cask "dozer"
 cask "firefox"
 cask "font-awesome-terminal-fonts"
 cask "gimp"
@@ -160,6 +162,7 @@ cask "postman"
 cask "qbittorrent"
 cask "spotify"
 cask "spotmenu"
+cask "the-unarchiver"
 cask "virtualbox"
 cask "vlc"
 mas "Amphetamine", id: 937984704
@@ -168,7 +171,6 @@ mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Parallels Desktop", id: 1085114709
 mas "SnippetsLab", id: 1006087419
-mas "The Unarchiver", id: 425424353
 mas "Typist", id: 415166115
 mas "VOX", id: 461369673
 mas "Xcode", id: 497799835
