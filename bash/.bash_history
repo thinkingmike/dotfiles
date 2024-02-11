@@ -1,49 +1,3 @@
-cd..
-cd bin/
-./godoc -http=:6060
-cd go
-ls
-cd site/
-ls
-cd..
-cls
-ls
-mkdir wgetted
-cd site
-ls
-mv tutorialedge.net/ ~/Develop/go/wgetted/tutorialedge.net
-ls
-cd..
-rm site/
-ls
-cd wgetted/
-ls
-cd..
-cd..
-cd rust/
-ls
-cd docs/
-ls
-cd..
-mv docs/ wgetted/
-ls
-brew update && brew install exercism
-exercism version
-cd react_projects/
-cd tides/
-ls
-cat README.md 
-cls
-cd build
-ls
-open index.html 
-cd...
-cd..
-code .
-npm run start
-curl -H "http://api.accuweather.com/tidal/v1/forecasts/1day/2231170?apikey=262966"
-curl -H "Accept-Encoding: gzip, deflate" "http://api.accuweather.com/tidal/v1/forecasts/1day/2231170?apikey=262966"
-curl -H "http://api.weatherstack.com/current?accces_key=6e39dd98cb5ad669055a951b1faba65a"
 curl -H "http://api.weatherstack.com/current?accces_key=6e39dd98cb5ad669055a951b1faba65a&query=New York"
 curl -H "Accept-Encoding:gzip, deflate" "http://api.weatherstack.com/current?accces_key=6e39dd98cb5ad669055a951b1faba65a&query=New York"
 tmutil
@@ -512,3 +466,35 @@ chsh -s /bin/zsh
 reset
 ls
 cls
+go run
+exit
+exit
+exi
+exit
+exit
+which zsh
+cd dotfiles
+cd tmux
+ls
+ls -a;l
+ls -al
+vim .tmux.conf
+ls
+reload
+exit
+ls
+..
+cd ..
+ls
+reload
+exit
+exit
+cd ~/dotfiles/tmux/
+vi .tmux.conf 
+reload
+exit
+cd ~/dotfiles/tmux/
+vi .tmux.conf 
+exit
+vi ~/dotfiles/tmux/.tmux.conf 
+exit

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/Michiel/dotfiles/vim'
 let g:netrw_dirhist_1='/Users/Michiel/Develop/go/src/ffprobe/assets'
 let g:netrw_dirhist_0='/Users/Michiel/Develop/go/src/ffprobe'
 let g:netrw_dirhist_9='/Users/Michiel/Develop/go/src/golang.org'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/Users/Michiel/Develop/go/src'
 let g:netrw_dirhist_5='/Users/Michiel/Develop/go/src/color'
 let g:netrw_dirhist_4='/Users/Michiel/Develop/go/src'
 let g:netrw_dirhist_3='/Users/Michiel/Develop/go/src/color/prompt'
-let g:netrw_dirhist_2='/Users/Michiel/Develop/go/src/color'

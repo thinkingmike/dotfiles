@@ -15,10 +15,13 @@ set splitright
 set backspace=indent,eol,start	 "make backspace work like in most other programs in Insert mode
 
 set laststatus=2	  "always display status line
+
 set number      	 "Show line numbers
 
 set noerrorbells	 "No beeps
 set visualbell  	 "Flash screen on error
+
+set clipboard=unnamed   "use the sytem clipboard
 
 "set autoindent
 set expandtab		"use spaces instead of tabs
@@ -28,6 +31,13 @@ set softtabstop=2	"1 tab == 2 spaces
 
 set incsearch		"search as characters are entered
 set hlsearch		"highlight matches
+
+"Change cursor shape between Insert and Normal mode in iTerm2
+if $TERM_PROGRAM =~"iTerm"
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7" "Vertical bar in Insert mode
+  let &t_SR = "\<ESC>]50;CursorShape=0\x7" "Block in normal mode
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
 
 set mouse=a		"enable mouse support
 
@@ -62,8 +72,10 @@ let g:netrw_altv = 1
 "augroup END
 
 "set color scheme dracula (from package)
-packadd! dracula
+"packadd! dracula
+packadd! gruvbox
 syntax on    		 "enable syntax highlighting
-color dracula
+"color dracula
+color gruvbox
 
 

@@ -72,4 +72,4 @@ export PATH="/usr/local/go/bin:$PATH"
 export GOPATH="$HOME/Develop/go"
 export GOBIN="$HOME/Develop/go/bin/"
 
-export PATH="$HOME/.cargo/bin:$PATH"
+. "$HOME/.cargo/env"

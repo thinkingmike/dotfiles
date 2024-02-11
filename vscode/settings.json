@@ -41,7 +41,6 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
     "explorer.confirmDragAndDrop": false,
     "[javascript]": {
       "editor.defaultFormatter": "HookyQR.beautify"
@@ -53,7 +52,6 @@
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
     "breadcrumbs.enabled": false,
     "vsicons.dontShowNewVersionMessage": true,
     "go.alternateTools": {
@@ -75,5 +73,32 @@
       "before":["<space>"],
       "commands": ["workbench.action.files.save"]
     }
-    ]
+    ],
+    "go.testEnvFile": "",
+    "go.useLanguageServer": true,
+    "gopls": {
+      "build.experimentalWorkspaceModule": true
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+        80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "dart.flutterSdkPath": "/Users/Michiel/OneDrive/Develop/flutter/flutter",
+    "files.associations": {
+      "*.tmpl": "html"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    // "editor.codeActionsOnSave": null
   }
